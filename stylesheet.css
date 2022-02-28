@@ -1,0 +1,382 @@
+body {
+  margin: 0%;
+}
+header > div {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1280px;
+  padding: 0 32px;
+  margin: auto;
+}
+h1 {
+  font-size: 70px;
+  font-family: "Lato";
+  font-weight: bold;
+  margin: 20px 0px;
+}
+div {
+  font-size: small;
+  font-family: "Lato";
+}
+.search {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  height: 45px;
+  width: 500px;
+  text-align: left;
+  font-size: small;
+  padding-top: 0px;
+  padding-left: 15px;
+}
+.search::placeholder {
+  color: lightgray;
+  font-family: "Lato";
+}
+.png {
+  padding-left: 15px;
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+}
+.nav-wrapper {
+  background-color: #f3f3f3;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+a:hover {
+  color: #bd1c2d;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1280px;
+  height: 50px;
+  padding: 0 20px;
+  margin: auto;
+}
+nav > a {
+  color: black;
+  text-decoration: none;
+  padding: 0 12px;
+  line-height: 44px;
+}
+.siema {
+  height: 500px;
+}
+.siema div,
+.siema img {
+  height: 100%;
+}
+.prev,
+.next {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-icons.md-36 {
+  font-size: 36px;
+  font-weight: 200;
+}
+.sect1 {
+  text-align: center;
+  padding: 50px;
+  line-height: 20px;
+}
+h2 {
+  font-size: 27px;
+  padding-bottom: 40px;
+}
+.pic1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pic {
+  display: flex;
+  height: 220px;
+  max-width: 220px;
+}
+.p1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 20px;
+}
+.p1 > p {
+  width: 220px;
+  text-align: left;
+  font-size: 16px;
+}
+.p1 > a {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-size: 15px;
+  letter-spacing: 0.15625em;
+  border: none;
+  cursor: pointer;
+  background-color: #f3f3f3;
+  padding: 8px 16px;
+}
+.butt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+  letter-spacing: 0.15625em;
+}
+.heart {
+  height: 30px;
+}
+.sect2 {
+  background-color: #f3f3f3;
+  height: 333px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 48px 60px;
+}
+.p2 {
+  display: flex;
+  flex-direction: column;
+}
+.pic2 {
+  display: flex;
+  height: 231px;
+  max-width: 231px;
+}
+.p2 > p {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.75rem;
+}
+.sect3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 40px;
+}
+.p3 {
+  height: 836px;
+  width: 552px;
+}
+.p3 > p {
+  padding-bottom: 24px;
+  margin: 0px;
+}
+.pic3 {
+  height: 600px;
+  width: 550px;
+}
+.pic4 {
+  margin-top: 2rem;
+  height: 600px;
+  width: 550px;
+}
+.p4 {
+  height: 836px;
+  width: 552px;
+  margin-left: 55px;
+}
+#title {
+  padding-top: 24px;
+  font-size: 20px;
+}
+#butt {
+  width: 500px;
+}
+#butt > button {
+  background-color: rgb(131, 131, 134, 1);
+  color: white;
+  font-size: x-small;
+  padding: 8px 24px;
+  line-height: 1.25rem;
+  font-size: 0.875rem;
+}
+#butt > button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+.banner {
+  height: 250px;
+  width: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 220px;
+}
+.parra {
+  color: #a41631;
+  font-weight: bold;
+}
+.line {
+  text-decoration: line-through;
+  font-weight: bold;
+}
+.banner2 {
+  background-color: rgb(102, 102, 102, 1);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 90px;
+  padding: 12px 24px;
+}
+#bannertitle > p {
+  margin: 12px 0px;
+}
+.icons > img {
+  height: 28px;
+}
+h3 {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+  letter-spacing: 0.0625em;
+  line-height: 1.5rem;
+  padding: 12px 0px;
+  padding-right: 24px;
+  margin: 0px;
+}
+#par {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+#email {
+  background-color: white;
+  letter-spacing: 0.0625em;
+  border: 1px solid white;
+  box-sizing: border-box;
+  height: 44px;
+  width: 220px;
+  padding: 10px 10px;
+  margin: 0px;
+}
+#email::placeholder {
+  color: lightgray;
+  font-family: "Lato";
+}
+.sign {
+  box-sizing: border-box;
+  height: 44px;
+  width: 80px;
+  background-color: rgb(177, 208, 228, 1);
+  font-family: "Lato";
+  font-size: 13px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  padding: 10px 10px;
+}
+#banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.footertext {
+  padding: 40px 24px;
+  height: 217px;
+  width: 414px;
+  font-size: 15px;
+}
+h4 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 12px;
+  letter-spacing: 0.0625em;
+}
+.footertext > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+  padding-bottom: 16px;
+  margin: 0px;
+}
+.footertext > ul > li {
+  display: flex;
+  text-decoration: none;
+  letter-spacing: 0.0625em;
+}
+.dot {
+  height: 14px;
+}
+.footertext > p {
+  padding-right: 80px;
+  margin: 0px;
+  letter-spacing: 0.0625em;
+}
+.footertext2 {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+.thirds {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding-right: 20px;
+}
+h5 {
+  padding-top: 4px;
+  padding-bottom: 12px;
+  margin: 0px;
+  border-bottom: 1px solid #dedede;
+  font-size: 15px;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding-left: 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin: 0px;
+}
+.list > li {
+  display: flex;
+  text-decoration: none;
+  padding: 6px 0px;
+  font-size: 15px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.finalbanner {
+  background-color: rgb(243, 243, 243, 1);
+  padding: 10px 10px;
+}
+.finalbanner2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding-left: 0px;
+}
+.finalbanner2 > li {
+  display: flex;
+  text-decoration: none;
+  font-weight: 500;
+}
+.finalbanner2 > li > img {
+  padding-left: 50px;
+}
+/* color=burlywood */
